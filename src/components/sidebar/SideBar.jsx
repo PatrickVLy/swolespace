@@ -5,7 +5,7 @@ export default function SideBar() {
         <div className = "sidebar">
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
-                <img className="profileImage" src="./profile.jpg"/>
+                <img className="profileImage" alt="profilePicture" src="./profile.jpg"/>
                 <p>My name is Patrick and I am the creator of swolespace. I created this app to help fitness buffs, gym bunnys, and even beginners connect and share workouts, training tips and advice so that we can build a community to help eachother get into the best shape ever. </p>
             </div>
             <div className="sidebarItem">
