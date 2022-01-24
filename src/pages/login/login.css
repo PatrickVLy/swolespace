@@ -1,0 +1,65 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginForm > label{
+    margin: 10px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.loginInput{
+    padding-left: 10px;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #666;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.loginSignUpButton{
+    background-color: lightcoral;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 15%;
+}
