@@ -5,12 +5,13 @@ import Posts from "./components/posts/Posts";
 import LogWorkout from "./pages/logworkout/LogWorkout";
 import Settings from "./pages/settings/Settings";
 import LogIn from "./pages/login/LogIn";
+import SignUp from "./pages/signup/SignUp";
 
 function App() {
   return (
     <>
       <TopBar/>
-      <LogIn/>
+      <SignUp/>
     
 
 
