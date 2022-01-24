@@ -4,7 +4,7 @@ export default function SinglePost() {
     return (
         <div className="singlePost">
             <div className="singlePostWrapper">
-                <img src="./squat.jpg" alt="postImg" className="singlePostImg"/>
+                <img src="https://raw.githubusercontent.com/PatrickVLy/swolespace/main/public/squat.jpg" alt="postImg" className="singlePostImg"/>
                 <h1 className="singlePostTitle">Insane Leg Day Workout
                 <div className="singlePostEdit">
                 <i className="singlePostIcon far fa-edit"></i>
