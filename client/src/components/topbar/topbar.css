@@ -1,0 +1,104 @@
+.top{
+    width:100%;
+    height: 50px;
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    z-index: 999;
+
+}
+
+@font-face {
+    font-family: 'ExodusStriped';
+    src: url("./ExodusStriped.otf") format("opentype")
+    }
+
+@font-face {
+    font-family: 'ExodusStencil';
+    src: url("./ExodusStencil.otf") format("opentype")
+    }
+
+.logo{
+    font-family: 'ExodusStriped', serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+.logo::first-letter{
+    font-family: 'ExodusStriped', serif;
+    color: black;
+    font-size: 30px;
+
+}
+
+.logochild{
+    font-family: 'ExodusStencil', serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.logochild > b{
+    font-family: 'ExodusStencil', serif;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+
+}
+
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+.topCenter{
+    flex: 6;
+}
+
+.topList{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+
+
+}
+.topImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
