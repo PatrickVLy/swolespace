@@ -5,7 +5,7 @@ export default function Post() {
     return (<Link className="card" to="post/:postId">
         <div className="post">
             
-            <img className="postImg" alt="postImage" src="https://raw.githubusercontent.com/PatrickVLy/swolespace/main/public/squat.jpg"/>
+            <img className="postImg" alt="postImage" src="./squat.jpg"/>
             <div className="postInfo">
                 <div className="postCategories">
                     <span className="postCategory">Legs</span>

@@ -22,7 +22,7 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                {user ? (<img className="topImg" alt ="topbarpic" src="https://raw.githubusercontent.com/PatrickVLy/swolespace/main/public/patrick.jpg"/>) : (
+                {user ? (<img className="topImg" alt ="topbarpic" src="./patrick.jpg"/>) : (
                   <ul className="topList">
                   <li className="topListItem"><Link to="/login" className="link">LOG IN</Link></li>
                   <li className="topListItem"><Link to="/signup" className="link">SIGN UP</Link> </li></ul>

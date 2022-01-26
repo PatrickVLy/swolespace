@@ -7,7 +7,23 @@ const PostSchema = new mongoose.Schema({
         unique: true,
     }, 
     
+    exercises:[
+        firstExercise, {
+        type: String,
+        required: true,
+    }, 
+
+    firstExerciseWeight, {
+        type: Number,
+        required: true,
+    }, 
     
+    firstExerciseWeight, {
+        type: Number,
+        required: true,
+    }, ],
+    
+
     description:{
         type: String, 
         required: true,
