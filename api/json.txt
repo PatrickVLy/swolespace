@@ -1,0 +1,29 @@
+{
+    "title": "chest and legs", 
+    
+    
+        "firstExercise": "Bench Press", 
+
+        "firstExerciseWeight": 225, 
+    
+        "firstExerciseSets": 3,
+    
+        "firstExerciseReps": 10, 
+	
+        "secondExercise": "squats", 
+
+        "secondExerciseWeight": 225, 
+    
+        "secondExerciseSets": 3,
+    
+        "secondExerciseReps": 10, 
+  
+
+    "description": "swole was crazy", 
+    
+ 
+
+    "username": "joey"
+
+   
+}

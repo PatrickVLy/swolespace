@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const CategorySchema = new mongoose.Schema({
-    email:{
+    category:{
         type: String,
         required: true,
         unique: true,
