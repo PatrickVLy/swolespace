@@ -1,6 +1,48 @@
 .singlePost{
     flex: 9;
+
 }
+
+.workoutContainer{
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    position: relative;
+    margin: -2px;
+}
+
+.exerciseCol{
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    text-align: right;
+}
+
+i {
+    font-style: normal;
+}
+
+.weightCol{
+    background-color: lightgreen;
+
+}
+
+.setCol{
+    background-color: lightskyblue;
+    }
+
+.repCol{
+    display: inline-block;
+    background-color: lavender;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
 
 .singlePostWrapper{
     padding: 20px;
